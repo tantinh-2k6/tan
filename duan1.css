@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+/* header */
+#header{
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: #000;
+    position: fixed;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav, .pos, .dv{
+    list-style-type: none;
+}
+
+#nav > ul > li {
+    display: inline-block;
+}
+#nav li {
+    position: relative;
+}
+
+#nav > ul > li >a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li a {
+    text-decoration: none;
+    padding: 0 30px;
+    line-height: 70px;
+    display: inline-block;
+}
+
+#nav .pos {
+    display: none;
+    min-width: 250px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    top: 100%;
+    left: 0;
+}
+ 
+#nav .pos a {
+    color: #000; 
+    padding: 0 20px;
+}
+
+#nav .dv {
+    display: none;
+    min-width: 350px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    top: 100%;
+    left: 0;
+}
+ 
+#nav .dv a {
+    color: #000; 
+    padding: 0 20px;
+}
+
+/* BENGIN ICON */
+#nav .nav-1 {
+    font-size: 14px ;
+}
+
+#header .icon {
+    float: right;
+}
+
+#header .nav-2 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 70px;
+    padding: 0 30px;
+    display: block;
+}
+
+/* END ICON */
+/* BEGIN HOVER */
+
+
+#nav li:hover .pos {
+    display: block;
+}
+
+#nav li:hover .dv {
+    display: block;
+}
+
+#header .nav-2:hover {
+    background-color: rgb(189, 55, 55);
+}
+
+#nav > ul > li:hover > a,
+#nav .pos li:hover,
+#nav .dv li:hover {
+    color: #000;
+    background-color: #ccc; 
+}
+
+/* END HOVER */
+
+/* content */
+#content{
+    margin-top: 70px;
+}
+
+#content #contact1, #contact2, #contact3, #contact4, #contact5, #contact6, #contact7, #contact8 {
+    width: 800px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 190px;
+}
+.map{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.gt{
+    text-align: center;
+    font-size: 80px;
+}
+
+.pad{
+    margin-top: 70px;
+}
+.tt, .dichvu, .lienhe{
+    padding-top: 30px;
+}
+
+.lienhe{
+    margin-top: 70px;
+    font-size: 50px;
+
+}
+.noidung{
+    padding: 0 30;
+}
+.fb{
+    text-decoration: none;
+    height: 200px;
+    color: #fff;
+    padding: 10 30;
+    background-color: #000;
+}
+.fb:hover{
+    color: #fff;
+    background-color: rgb(126, 126, 126);
+}
+.fb:active{
+    color: #fff;
+    background-color: rgb(56, 54, 54);
+}
+.zalo{
+    position: relative;
+}
+.sdt{
+    position: absolute;
+    padding-top: 0;
+}
+
+
